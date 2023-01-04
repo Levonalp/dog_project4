@@ -37,6 +37,7 @@ ALLOWED_HOSTS = ['localhost', 'morning-harbor-71338.herokuapp.com']
 
 INSTALLED_APPS = [
     'corsheaders',
+    'users_api',
     'rest_framework',
     'dog_api',
     'django.contrib.admin',
@@ -90,6 +91,13 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dog_api',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': 'localhost'
+    },
+    'users': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'users_api',
         'USER': '',
         'PASSWORD': '',
         'HOST': 'localhost'
