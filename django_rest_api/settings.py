@@ -36,6 +36,7 @@ ALLOWED_HOSTS = ['localhost', 'morning-harbor-71338.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'bcrypt',
     'corsheaders',
     'users_api',
     'rest_framework',
