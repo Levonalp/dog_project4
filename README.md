@@ -4,7 +4,7 @@ This is a Django REST API that allows users to perform CRUD (create, read, updat
 Installation
 Clone the repository to your local machine:
 Copy code
-git clone https://github.com/[USERNAME]/django-rest-api.git
+git clone https://github.com/Levonalp/dog_project4
 Navigate to the directory:
 Copy code
 cd django-rest-api
